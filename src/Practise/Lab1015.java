@@ -23,5 +23,13 @@ public class Lab1015 {
         // +
         // B = a = 11 ->  A+B = 10+11
 
+        int c = 10;
+        System.out.println(++c + ++c);
+        System.out.println(c);
+
+        int d = 10;
+        System.out.println(d++ + ++d + +d);
+        System.out.println(d);
+
     }
 }
